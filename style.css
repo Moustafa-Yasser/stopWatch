@@ -12,7 +12,7 @@ body {
   background: url(backgound-quot.jpg) no-repeat center center/cover;
   direction: rtl;
   line-height: 1.8;
-  font-family: cursive;
+  font-family: sans-serif;
   min-height: 100vh;
   display: flex;
   justify-content: center;

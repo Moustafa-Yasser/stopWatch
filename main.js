@@ -44,7 +44,7 @@ let timeStatus = "stop";
 
 play.addEventListener("click", function () {
   if (timeStatus === "stop") {
-    timerInterval = window.setInterval(stop, 1000);
+    timerInterval = window.setInterval(stop, 100);
     play.innerHTML = `<i class="fa-solid fa-pause"></i>`;
     play.classList.add("pause");
     timeStatus = "start";
